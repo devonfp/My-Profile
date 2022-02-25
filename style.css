@@ -57,10 +57,24 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/sunset.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+}
+.headerpage2 {
+  text-align: center;
+  background: url('images/new_background.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+  .headerpage3 {
+    text-align: center;
+    background: url('images/new_background_2.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
 }
 header {
   line-height: 1.5;
@@ -71,10 +85,10 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .4s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -98,10 +112,22 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+  .card2 {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
 }
-
+.card:hover {
+  border-color: #0b30d4;
+}
+.card2:hover {
+  border-color: #0b30d4;
+}
 ul.skills {
   padding: 0;
   text-align: center;
